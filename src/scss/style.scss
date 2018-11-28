@@ -21,12 +21,27 @@ body{
 		width: 800px;
 		margin: auto;
 		text-align: center;
-	}
-	
-	.clock{
-		font-size: 100px;
 		
 	}
+	
+	table{
+		width: 100%;
+		margin-top: $margin;
+		border-collapse: collapse;
+		
+		th, td{
+			border: 1px solid $dark;
+			text-align: left;
+			padding: 15px;
+		}
+	}
+	
+	.preloader{
+		margin-top: $margin;
+		color: $red;
+	}
+	
+	
 }
 
 

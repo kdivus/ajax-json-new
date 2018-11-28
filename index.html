@@ -3,17 +3,36 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta nema = "viewport" content = "width=device-width"/>
-		<title>jQuery DOM manipulacija</title>
+		<title>Ajax and JSON</title>
 		<link href="dist/css/style.min.css" rel="stylesheet" />	
 	</head>
 	<body>
+		
+		<div class = "content">
+			<h1>Users Information</h1>
+			<button class = "btn">Get user info</button>
+			<div class = "preloader"></div>
+			<table class = "users">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Name</th>
+						<th>username</th>
+						<th>E-mail</th>
+					</tr>
+				</thead>
+				<tbody>
+				
+				</tbody>
+			</table>
+		</div>
 		
 		<!-- JS scripts -->
 		<script src = "node_modules/jquery/dist/jquery.min.js"></script>
 		<script src = "dist/js/app.min.js"></script>
 		<script>
             $(document).ready(function(){
-                App.init($('#box'));
+                App.init();
             });
         </script>
 	</body>	

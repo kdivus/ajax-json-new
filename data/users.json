@@ -1,0 +1,32 @@
+{
+	"0": {
+		"id": 1,
+		"name": "Pero Peric",
+		"username": "pero14",
+		"email": "pero@pero.com"
+	},
+	"1": {
+		"id": 2,
+		"name": "Marko Markic",
+		"username": "marko4",
+		"email": "marko@marko.com"
+	},
+	"2": {
+		"id": 3,
+		"name": "Ana Anic",
+		"username": "ana58",
+		"email": "ana@ana.com"
+	},
+	"3": {
+		"id": 4,
+		"name": "Test Bla",
+		"username": "test2",
+		"email": "test@test.com"
+	},
+	"4": {
+		"id": 5,
+		"name": "Iva Ivic",
+		"username": "iva54",
+		"email": "iva@iva.com"
+	}
+}

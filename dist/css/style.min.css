@@ -1,1 +1,1 @@
-*,*:before,*:after{box-sizing:border-box}html{font-family:'Raleway', sans-serif;font-size:16px}body{margin:0;background:#eee}body .content{width:800px;margin:auto;text-align:center}body .clock{font-size:100px}
+*,*:before,*:after{box-sizing:border-box}html{font-family:'Raleway', sans-serif;font-size:16px}body{margin:0;background:#eee}body .content{width:800px;margin:auto;text-align:center}body table{width:100%;margin-top:1rem;border-collapse:collapse}body table th,body table td{border:1px solid #111;text-align:left;padding:15px}body .preloader{margin-top:1rem;color:#f34141}
