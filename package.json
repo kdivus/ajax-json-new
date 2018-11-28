@@ -1,0 +1,27 @@
+{
+  "name": "dom_manipulation-project",
+  "version": "1.0.0",
+  "description": "dom_manipulation test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "gulp",
+    "scss",
+    "jQuery"
+  ],
+  "author": "Tomislav Kescec",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-uglify": "^3.0.1",
+    "jquery": "^3.3.1"
+  }
+}

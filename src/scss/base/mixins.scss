@@ -1,0 +1,9 @@
+/*######## DEFINE MIXINS ########*/
+
+/*mixin prima argumente kao i funkcija u JS-u, dajemo naziv prema onome gdje ga želimo koristit*/
+/*unutar zagrade stavimo 3 točkice koje znače da osim prvog parametra unutra ide neograničen broj parametara*/
+
+
+@mixin border-radius($radius...){
+	border-radius: $radius;
+}
